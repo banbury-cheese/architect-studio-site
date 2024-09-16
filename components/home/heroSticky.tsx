@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import CustomEase from "gsap/CustomEase";
 import $ from "jquery";
 import bodymovin from "lottie-web";
-import useMediaQuery from "@/helpers/mediaQuer";
+import useMediaQuery from "@/helpers/mediaQuery";
 
 gsap.registerPlugin(CustomEase);
 gsap.registerPlugin(ScrollTrigger);
