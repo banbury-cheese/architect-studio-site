@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import $ from "jquery";
 import bodymovin from "lottie-web";
-import useMediaQuery from "@/helpers/mediaQuer";
+import useMediaQuery from "@/helpers/mediaQuery";
 
 const Footer: React.FC = () => {
   useEffect(() => {
