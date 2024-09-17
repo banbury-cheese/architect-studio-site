@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { useEffect } from "react";
 import $ from "jquery";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -106,7 +107,7 @@ const PhotoGridSection: React.FC = () => {
           fadeOutElements.removeClass("fadeout");
           $(this).removeClass("highlight");
 
-          $(".logo-text").text("Stewart & associates");
+          $(".logo-text").text("mavi & associates");
 
           gsap.set(".image-grid-info_holder", {
             opacity: 0,
@@ -127,238 +128,263 @@ const PhotoGridSection: React.FC = () => {
       <div className="photo-grid_wrap w-dyn-list">
         <div role="list" className="photo-grid w-dyn-items">
           <div
-            data-main-title="Lake Club"
-            data-work-title="SP/ARC_01"
-            data-work-copy="Designed to melt into the landscape, the Lake Club at Real De La Quinta accommodates water sports, wellness facilities, a gym and a restaurant."
+            data-main-title="Highland Residence"
+            data-work-title="MV/ARC_01"
+            data-work-copy="The home's design balances luxury and simplicity, blending modern architecture with state-of-the-art features to suit the new owners."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--1"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe169_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_01/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">01</div>
-              <div className="grid-mobi_name">Lake Club</div>
+              <div className="grid-mobi_name">Highland Residence</div>
             </div>
             <a
-              href="/work/lake-club"
+              href="/images/MV/ARC_01/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Prospect Road"
-            data-work-title="SP/ARC_02"
-            data-work-copy="An iconic VDMMA-designed house came under new ownership and needed alterations to suit the family’s lifestyle."
+            data-main-title="Hope Corner"
+            data-work-title="MV/ARC_02"
+            data-work-copy="A striking modern residence with expansive terraces and a floating roofline, blending indoor and outdoor living in sleek, geometric harmony."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--2"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe16f_preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_02/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">02</div>
-              <div className="grid-mobi_name">Prospect Road</div>
+              <div className="grid-mobi_name">Hope Corner</div>
             </div>
             <a
-              href="/work/prospect-road"
+              href="/images/MV/ARC_02/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Stellenbosch Wastewater Treatment Works"
-            data-work-title="SP/INF_03"
-            data-work-copy="The design for the plant is a backdrop to the advanced membrane water filtration technology being used for water treatment."
+            data-main-title="Mill House"
+            data-work-title="MV/ARC_03"
+            data-work-copy="A playful postmodern apartment complex featuring bold numbering, varied geometric shapes, and a whimsical tower, creating a unique urban living space."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--3"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe17e_preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_03/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">03</div>
-              <div className="grid-mobi_name">
-                Stellenbosch Wastewater Treatment Works
-              </div>
+              <div className="grid-mobi_name">Mill House</div>
             </div>
             <a
-              href="/work/stellenbosch-water-treatment-administration-building"
+              href="/images/MV/ARC_03/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Villa 32"
-            data-work-title="SP/ARC_04"
-            data-work-copy="Situated at Real de la Quinta, near the Lake Club in Spain, Villa 32 accentuates the landscape. "
+            data-main-title="Palmview Oasis"
+            data-work-title="MV/ARC_04"
+            data-work-copy="A striking modern residence nestled among tropical palms, blending clean lines and luxurious amenities to create the ultimate beachside retreat."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--4"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe17f_preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_04/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">04</div>
-              <div className="grid-mobi_name">Villa 32</div>
+              <div className="grid-mobi_name">Palmview Oasis</div>
             </div>
             <a
-              href="/work/villa-32"
+              href="/images/MV/ARC_04/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Villa Olivieri"
-            data-work-title="SP/ARC_05"
-            data-work-copy="The concept was clear: generate the feeling that you live in the garden. Facilitating easy access to the outdoor relaxation areas was central to this residence in Switzerland.&nbsp;"
+            data-main-title="Mosaic Manor
+"
+            data-work-title="MV/ARC_05"
+            data-work-copy="An elegant beachfront property showcasing striking mosaic tile work, clean white façades, and expansive glass windows, merging luxury with coastal contemporary design."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--5"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe191_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_05/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">05</div>
-              <div className="grid-mobi_name">Villa Olivieri</div>
+              <div className="grid-mobi_name">Mosaic Manor</div>
             </div>
             <a
-              href="/work/villa-olivieri"
+              href="/images/MV/ARC_05/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Villa Palmitos"
-            data-work-title="SP/ARC_06"
-            data-work-copy="Villa Palmitos is a two-unit house designed for luxury indoor-outdoor living."
+            data-main-title="Mountain View Terrace"
+            data-work-title="MV/ARC_06"
+            data-work-copy="A modern multi-unit residence blending contemporary and traditional elements, featuring stacked balconies, varied textures, and warm wood accents, nestled against a scenic mountain backdrop."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--6"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe199_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_06/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">06</div>
-              <div className="grid-mobi_name">Villa Palmitos</div>
+              <div className="grid-mobi_name">Mountain View Terrace</div>
             </div>
             <a
-              href="/work/villa-palmitos"
+              href="/images/MV/ARC_06/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Zandvliet Wastewater Treatment Works "
-            data-work-title="SP/INF_07"
-            data-work-copy="The administration building at Zandvliet Wastewater Treatment Works (WWTW) facilitates fluid interactions between the inside and the outside functions at the site and between employees."
+            data-main-title="Stonebridge Estate"
+            data-work-title="MV/ARC_07"
+            data-work-copy="A grand Mediterranean-inspired villa boasting arched windows, ornate ironwork, and a blend of stone textures, exuding timeless elegance and old-world charm in a modern setting."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--7"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe19a_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_07/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">07</div>
-              <div className="grid-mobi_name">
-                Zandvliet Wastewater Treatment Works{" "}
-              </div>
+              <div className="grid-mobi_name">Stonebridge Estate</div>
             </div>
             <a
-              href="/work/zandvliet-water-treatment-administration-building"
+              href="/images/MV/ARC_07/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Zevenrivieren Farmhouse Manor"
-            data-work-title="SP/INT_08"
-            data-work-copy="True to its Dutch name, translating to ‘Seven Rivers’, this restoration project on an operational seven-hectare farm in Stellenbosch preserved the authentic Cape Dutch style of the building’s interior and exterior architecture."
+            data-main-title="Urban Nexus"
+            data-work-title="MV/ARC_08"
+            data-work-copy="A dynamic mixed-use building featuring bold orange accents, curved rooflines, and multi-level terraces, embodying the spirit of contemporary urban architecture."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--8"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe1aa_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_08/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">08</div>
-              <div className="grid-mobi_name">
-                Zevenrivieren Farmhouse Manor
-              </div>
+              <div className="grid-mobi_name">Urban Nexus</div>
             </div>
             <a
-              href="/work/zevenrivieren"
+              href="/images/MV/ARC_08/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="Faure New Water Scheme "
-            data-work-title="SP/INF_09"
-            data-work-copy="The Faure New Water Scheme (FNWS) will form a cornerstone of the City of Cape Town's bulk water supply network by turning wastewater into potable water. On completion, this water re-use plant will be the largest of its kind in the world."
+            data-main-title="Aishbag Railway Station"
+            data-work-title="MV/ARC_09"
+            data-work-copy="A modern railway station with striking red and black facade, large glass windows, and sleek design, bustling with travelers and luggage, exemplifying efficient transportation infrastructure."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--9"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe1b0_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_09/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">09</div>
               <div className="grid-mobi_name">Faure New Water Scheme</div>
             </div>
             <a
-              href="/work/faure-nws"
+              href="/images/MV/ARC_09/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>
           <div
-            data-main-title="House Higgovale "
-            data-work-title="SP/ARC_10"
-            data-work-copy="Drawing inspiration from its close proximity to Table Mountain, this single residential home seamlessly integrates stone textures that take inspiration from the natural surroundings."
+            data-main-title="Stone Arch Villa"
+            data-work-title="MV/ARC_10"
+            data-work-copy="A grand Mediterranean-inspired estate blending modern luxury with classic architectural elements, featuring expansive arched openings and an impressive stone facade."
             role="listitem"
             className="image-grid_item w-dyn-item image-grid_item--10"
           >
-            <img
+            <Image
               loading="eager"
               grid-img=""
-              src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe230_Preview.jpg"
+              width={300}
+              height={300}
+              src="/images/MV/ARC_10/cropped.jpeg"
               alt=""
               className="grid-img"
-            ></img>
+            ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">10</div>
-              <div className="grid-mobi_name">House Higgovale </div>
+              <div className="grid-mobi_name">Stone Arch Villa</div>
             </div>
             <a
-              href="/work/house-higgovale"
+              href="/images/MV/ARC_10/full.jpeg"
+              target="_blank"
               className="image-item_overlay w-inline-block"
             ></a>
           </div>

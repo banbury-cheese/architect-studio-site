@@ -14,7 +14,7 @@ const HomeIntroSection: React.FC = () => (
             Our architecture practice fosters connection and grows relationships
             between people, society and the environment. Our rigorous creative
             process ensures we evolve not only what is made, but how ideas are
-            generated, evaluated and realised. Since 2003, our team has grown
+            generated, evaluated and realised. Our team has grown
             across disciplines and thrives on collaboration. Driven by curiosity
             and ambition, we believe that any enduring solution needs to
             synchronise cogent analysis with sensitivity to the finer contextual

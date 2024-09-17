@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import $ from "jquery";
 import bodymovin from "lottie-web";
 import useMediaQuery from "@/helpers/mediaQuery";
+import toast from "react-hot-toast";
 
 const Footer: React.FC = () => {
   useEffect(() => {
@@ -49,7 +50,11 @@ const Footer: React.FC = () => {
             <div className="home-footer_row">
               <div className="home-footer_info">
                 <Link
-                  href="/studio"
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toast("Page Coming Soon");
+                  }}
                   className="home-footer-info_block  w-inline-block h-effect h-effect"
                 >
                   <div className="foot-head h-item">Our Studio</div>
@@ -77,8 +82,7 @@ const Footer: React.FC = () => {
                 </Link>
                 <a
                   data-swup-animation="to-black"
-                  
-                  href="/contact"
+                  href="mailto:contact@maviassociates.in"
                   className="home-footer-info_block  w-inline-block h-effect h-effect"
                 >
                   <div className="foot-head h-item">Contact Us</div>
@@ -118,7 +122,7 @@ const Footer: React.FC = () => {
                   </div>
                 </div>
                 <p easter-fade="" className="paragraph">
-                  All rights reserved ©Stewart&amp;Associates
+                  All rights reserved ©Mavi&amp;Associates
                 </p>
               </div>
               <div easter-fade="" className="footer-bot_right">
@@ -132,16 +136,22 @@ const Footer: React.FC = () => {
                     <div className="body-copy h-item">Home</div>
                   </a>
                   <a
-                    
-                    href="/studio"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
                     <div className="body-copy h-item">About</div>
                     <div className="body-copy h-item">About</div>
                   </a>
                   <a
-                    
-                    href="/work"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
                     <div className="body-copy h-item">Work</div>
@@ -149,16 +159,22 @@ const Footer: React.FC = () => {
                   </a>
                   <a
                     data-swup-animation="to-black"
-                    
-                    href="/archive"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
                     <div className="body-copy h-item">Archive</div>
                     <div className="body-copy h-item">Archive</div>
                   </a>
                   <a
-                    
-                    href="/news"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
                     <div className="body-copy h-item">News</div>
@@ -166,8 +182,7 @@ const Footer: React.FC = () => {
                   </a>
                   <a
                     data-swup-animation="to-black"
-                    
-                    href="/contact"
+                    href="mailto:contact@maviassociates.in"
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
                     <div className="body-copy h-item">Contact</div>
@@ -177,8 +192,7 @@ const Footer: React.FC = () => {
                 <div className="footer-menu_holder">
                   <a
                     t-black=""
-                    
-                    href="https://www.linkedin.com/company/alexstewartandpartners/"
+                    href="https://www.linkedin.com/company/mavi.associates/"
                     target="_blank"
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
@@ -187,8 +201,7 @@ const Footer: React.FC = () => {
                   </a>
                   <a
                     t-black=""
-                    
-                    href="https://www.instagram.com/stewartandpartners/"
+                    href="https://www.instagram.com/mavi.associates/"
                     target="_blank"
                     className="footer-link  w-inline-block h-effect h-effect"
                   >
@@ -197,11 +210,11 @@ const Footer: React.FC = () => {
                   </a>
                 </div>
                 <a
-                  href="mailto:info@stewartpartners.studio"
+                  href="mailto:contact@maviassociates.in"
                   className="footer-link  w-inline-block h-effect"
                 >
                   <div className="footer-link_text">
-                    info@stewartpartners.studio
+                    contact@maviassociates.in
                   </div>
                 </a>
               </div>
@@ -222,7 +235,11 @@ const FooterMobile: React.FC = () => {
           <div className="home-footer_row">
             <div className="home-footer_info">
               <Link
-                href="/studio"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  toast("Page Coming Soon");
+                }}
                 className="home-footer-info_block  w-inline-block h-effect h-effect"
               >
                 <div className="foot-head h-item">Our Studio</div>
@@ -250,7 +267,7 @@ const FooterMobile: React.FC = () => {
               </Link>
               <a
                 data-swup-animation="to-black"
-                href="/contact"
+                href="mailto:contact@maviassociates.in"
                 className="home-footer-info_block  w-inline-block h-effect h-effect"
               >
                 <div className="foot-head h-item">Contact Us</div>
@@ -291,14 +308,22 @@ const FooterMobile: React.FC = () => {
                     <div className="body-copy h-item">Home</div>
                   </a>
                   <a
-                    href="/studio"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect"
                   >
                     <div className="body-copy h-item">About</div>
                     <div className="body-copy h-item">About</div>
                   </a>
                   <a
-                    href="/work"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect"
                   >
                     <div className="body-copy h-item">Work</div>
@@ -306,14 +331,22 @@ const FooterMobile: React.FC = () => {
                   </a>
                   <a
                     data-swup-animation="to-black"
-                    href="/archive"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect"
                   >
                     <div className="body-copy h-item">Archive</div>
                     <div className="body-copy h-item">Archive</div>
                   </a>
                   <a
-                    href="/news"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toast("Page Coming Soon");
+                    }}
                     className="footer-link  w-inline-block h-effect"
                   >
                     <div className="body-copy h-item">News</div>
@@ -321,7 +354,7 @@ const FooterMobile: React.FC = () => {
                   </a>
                   <a
                     data-swup-animation="to-black"
-                    href="/contact"
+                    href="mailto:contact@maviassociates.in"
                     className="footer-link  w-inline-block h-effect"
                   >
                     <div className="body-copy h-item">Contact</div>
@@ -331,7 +364,7 @@ const FooterMobile: React.FC = () => {
                 <div className="footer-menu_holder">
                   <a
                     t-black=""
-                    href="https://www.linkedin.com/company/alexstewartandpartners/"
+                    href="https://www.linkedin.com/company/mavi.associates/"
                     target="_blank"
                     className="footer-link  w-inline-block h-effect"
                   >
@@ -340,7 +373,7 @@ const FooterMobile: React.FC = () => {
                   </a>
                   <a
                     t-black=""
-                    href="https://www.instagram.com/stewartandpartners/"
+                    href="https://www.instagram.com/mavi.associates/"
                     target="_blank"
                     className="footer-link  w-inline-block h-effect"
                   >
@@ -391,10 +424,10 @@ const FooterMobile: React.FC = () => {
           </div>
           <div className="footer-extras">
             <div mask-in className="footer-link_text">
-              info@stewartpartners.studio
+              contact@maviassociates.in
             </div>
             <p easter-fade className="paragraph">
-              All rights reserved ©Stewart&amp;Partners
+              All rights reserved ©Mavi&amp;Associates
             </p>
           </div>
         </div>

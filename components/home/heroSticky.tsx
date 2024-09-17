@@ -5,6 +5,7 @@ import CustomEase from "gsap/CustomEase";
 import $ from "jquery";
 import bodymovin from "lottie-web";
 import useMediaQuery from "@/helpers/mediaQuery";
+import toast from "react-hot-toast";
 
 gsap.registerPlugin(CustomEase);
 gsap.registerPlugin(ScrollTrigger);
@@ -34,7 +35,7 @@ const HeroSticky = () => {
           <Header />
           <div className={`text-logo_holder ${isMobile ? "is-mobile" : ""}`}>
             <div className="text-logo_layout">
-              <h3 className="logo-text">Stewart &amp; Associates</h3>
+              <h3 className="logo-text">mavi &amp; associates</h3>
             </div>
           </div>
           <VideoComponet />
@@ -92,7 +93,12 @@ const VideoComponet: React.FC = () => {
         </div>
       </div>
       <div className="video-play">
-        <div className="play-text_holder">
+        <div
+          className="play-text_holder"
+          onClick={() => {
+            toast("Coming Soon");
+          }}
+        >
           <div className="video-play_text">Showreel©2024</div>
           <div className="video-play_text">watch reel</div>
         </div>
@@ -107,7 +113,12 @@ const Header: React.FC = () => (
       <div className="body-copy">Design Intelligence</div>
     </div>
     <div className="text-overflow desktop">
-      <div className="alt-copy text-right">
+      <div
+        className="alt-copy text-right"
+        onClick={() => {
+          window.open("https://maps.app.goo.gl/SueeVtdTdrX3bDif8", "_blank");
+        }}
+      >
         {/* 51° 30' 35.5140'' N 0° */}
         26° 46' 44.9'' N 80°
         <br />
@@ -166,7 +177,12 @@ const OverlayMobile: React.FC = () => (
       ></img>
       <div className="home-hero_overlay_darken"></div>
       <div className="play-text_holder mobile">
-        <div className="video-play_text">
+        <div
+          className="video-play_text"
+          onClick={() => {
+            toast("Page Coming Soon");
+          }}
+        >
           SHowreel©2024
           <br />
         </div>

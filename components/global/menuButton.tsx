@@ -1,13 +1,16 @@
 const MenuButton = ({}) => (
   <div className="menu-btn">
-    <div className="text-overflow is-menu h-effect">
+    <a
+      className="text-overflow is-menu h-effect"
+      href="mailto:contact@maviassociates.in"
+    >
       <div className="menu-btn_text h-item">
-        <span className="word">Menu</span>
+        <span className="word">Contact</span>
       </div>
       <div className="menu-btn_text h-item">
-        <span className="word">Menu</span>
+        <span className="word">Contact</span>
       </div>
-    </div>
+    </a>
   </div>
 );
 
