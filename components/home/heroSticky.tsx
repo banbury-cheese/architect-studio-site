@@ -120,7 +120,7 @@ const Header: React.FC = () => (
         }}
       >
         {/* 51° 30' 35.5140'' N 0° */}
-        26° 46' 44.9'' N 80°
+        26° 46&apos; 44.9&apos;&apos; N 80°
         <br />
         <CurrentTime />
       </div>
