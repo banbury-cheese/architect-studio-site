@@ -67,13 +67,13 @@ const Footer: React.FC = () => {
                   </p>
                   <div className="footer-info-icon_holder">
                     <img
-                      src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe09f_plus-icon.svg"
+                      src="/images/hover/arrow.svg"
                       loading="lazy"
                       alt=""
                       className="footer-info_icon"
                     ></img>
                     <img
-                      src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0a0_arrow-icon.svg"
+                      src="/images/hover/plus.svg"
                       loading="lazy"
                       alt=""
                       className="footer-info_icon"
@@ -93,13 +93,13 @@ const Footer: React.FC = () => {
                   </p>
                   <div className="footer-info-icon_holder">
                     <img
-                      src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe09f_plus-icon.svg"
+                      src="/images/hover/arrow.svg"
                       loading="lazy"
                       alt=""
                       className="footer-info_icon"
                     ></img>
                     <img
-                      src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0a0_arrow-icon.svg"
+                      src="/images/hover/plus.svg"
                       loading="lazy"
                       alt=""
                       className="footer-info_icon"
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
                     <div className="sp-anim_holder">
                       <div
                         data-anim-loop=""
-                        lottie-url="https://cdn.prod.website-files.com/6480b7dee5884d12406ffba2/64881fc686e34d3ea7122487_S%26P_Logo.json"
+                        lottie-url="/lottie/footer.json"
                         className="sp-anim_container"
                       ></div>
                     </div>
@@ -252,13 +252,13 @@ const FooterMobile: React.FC = () => {
                 </p>
                 <div className="footer-info-icon_holder">
                   <img
-                    src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe09f_plus-icon.svg"
+                    src="/images/hover/arrow.svg"
                     loading="lazy"
                     alt=""
                     className="footer-info_icon"
                   ></img>
                   <img
-                    src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0a0_arrow-icon.svg"
+                    src="/images/hover/plus.svg"
                     loading="lazy"
                     alt=""
                     className="footer-info_icon"
@@ -277,13 +277,13 @@ const FooterMobile: React.FC = () => {
                 </p>
                 <div className="footer-info-icon_holder">
                   <img
-                    src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe09f_plus-icon.svg"
+                    src="/images/hover/arrow.svg"
                     loading="lazy"
                     alt=""
                     className="footer-info_icon"
                   ></img>
                   <img
-                    src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0a0_arrow-icon.svg"
+                    src="/images/hover/plus.svg"
                     loading="lazy"
                     alt=""
                     className="footer-info_icon"

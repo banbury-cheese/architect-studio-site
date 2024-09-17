@@ -154,10 +154,10 @@ const OverlayDesktop: React.FC = () => (
     <div className="home-hero_spacer"></div>
     <div className="home-hero_overlay">
       <img
-        src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero.jpg"
+        src="/images/hero/main.jpg"
         alt=""
         sizes="100vw"
-        srcSet="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-500.jpg 500w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-800.jpg 800w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero.jpg 2160w"
+        // srcSet="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-500.jpg 500w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-800.jpg 800w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e94371f7a4507bf1dba0_S%26P_Landing%20Hero.jpg 2160w"
         className="img-fill"
       ></img>
       <div className="home-hero_overlay_darken"></div>
@@ -169,7 +169,7 @@ const OverlayMobile: React.FC = () => (
   <div className="home-hero_overlay_wrap mobile video-play">
     <div className="home-hero_overlay">
       <img
-        src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e944e2abe43b207afb32_S%26P_Landing%20Hero_Mobile.jpg"
+        src="/images/hero/mobile.jpg"
         alt=""
         sizes="100vw"
         srcSet="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e944e2abe43b207afb32_S%26P_Landing%20Hero_Mobile-p-500.jpg 500w, https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/6690e944e2abe43b207afb32_S%26P_Landing%20Hero_Mobile.jpg 786w"

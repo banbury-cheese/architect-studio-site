@@ -7,12 +7,12 @@ export default function BlogPost({ params }: { params: { blogId: string[] } }) {
           <div className="head-flex_layout">
             <a href="/" className="head-logo_holder w-inline-block pload">
               <div className="head-logo_height"></div>
-              <img
+              {/* <img
                 src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe08f_logo-icon.svg"
                 loading="eager"
                 alt=""
                 className="head-logo"
-              ></img>
+              ></img> */}
             </a>
           </div>
           <div className="single-work_page-name pload">

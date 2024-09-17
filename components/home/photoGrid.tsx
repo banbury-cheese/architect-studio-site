@@ -354,7 +354,7 @@ const PhotoGridSection: React.FC = () => {
             ></Image>
             <div className="grid-img-number_holder">
               <div className="grid-img_number">09</div>
-              <div className="grid-mobi_name">Faure New Water Scheme</div>
+              <div className="grid-mobi_name">Aishbag Railway Station</div>
             </div>
             <a
               href="/images/MV/ARC_09/full.jpeg"

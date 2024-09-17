@@ -32,7 +32,7 @@ const FloatingTitleHolder = ({}) => {
 
 const ImageGridInfoHolder = ({}) => (
   <div className="image-grid-info_holder">
-    <div className="body-copy">SP/ARC_06</div>
+    <div className="body-copy">MV/ARC_06</div>
     <p className="paragraph">
       Villa Palmitos is a two-unit house designed for luxury indoor-outdoor
       living.

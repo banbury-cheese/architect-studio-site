@@ -194,7 +194,7 @@ export default function Home() {
         <div className="egg-right">
           <div className="sp-anim_holder">
             <div
-              lottie-url="https://cdn.prod.website-files.com/64afcdb90ffc66c74033166f/64df14ac4fa34312059c2648_Construction_Transparent.json"
+              lottie-url="/lottie/egg.json"
               className="sp-anim_container"
             ></div>
           </div>

@@ -6,7 +6,7 @@ const ContactHoverComponent: React.FC = () => {
       <div className="footer-img_holder">
         <div className="footer-img_height"></div>
         <img
-          src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0d7_Home_StudioHover.jpg"
+          src="/images/hover/studio-hover.jpg"
           loading="eager"
           alt=""
           className="img-fill"
@@ -15,7 +15,7 @@ const ContactHoverComponent: React.FC = () => {
       <div className="footer-img_holder">
         <div className="footer-img_height"></div>
         <img
-          src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe06c/66601c7c6b0d48cf88bbe0bf_Home_ContactHover.jpg"
+          src="/images/hover/contact.jpg"
           loading="eager"
           alt=""
           className="img-fill"
