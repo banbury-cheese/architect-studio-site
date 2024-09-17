@@ -24,50 +24,7 @@ export default function BlogPost({ params }: { params: { blogId: string[] } }) {
       <div className="page-wrapper">
         <div className="single-info_btn">
           <div className="single-info_btn-holder pload h-effect">
-            <div h-item="" className="single-info_btn-text">
-              <span className="word">
-                <span className="char">
-                  i
-                </span>
-                <span className="char">
-                  n
-                </span>
-                <span className="char" style="display: inline-block;">
-                  f
-                </span>
-                <span className="char" style="display: inline-block;">
-                  o
-                </span>
-              </span>
-            </div>
-            <div h-item="" className="single-info_btn-text">
-              <span className="word" style="display: inline-block;">
-                <span
-                  className="char"
-                  style="display: inline-block; translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0%, 100%);"
-                >
-                  i
-                </span>
-                <span
-                  className="char"
-                  style="display: inline-block; translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0%, 100%);"
-                >
-                  n
-                </span>
-                <span
-                  className="char"
-                  style="display: inline-block; translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0%, 100%);"
-                >
-                  f
-                </span>
-                <span
-                  className="char"
-                  style="display: inline-block; translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0%, 100%);"
-                >
-                  o
-                </span>
-              </span>
-            </div>
+         
           </div>
         </div>
       </div>
